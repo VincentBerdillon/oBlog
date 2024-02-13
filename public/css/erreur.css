@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9980FA;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.title, .return{
+       order: 2;
+}
+
+.title{
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    font-size: 50px;
+    color: #fff;
+    order: 1;
+}
+
+.logo{
+    display: block;
+    margin: 0 auto;
+    order: 0;
+}

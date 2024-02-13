@@ -1,0 +1,25 @@
+{
+  "name": "s03-PARCOURS-OBlog-VincentBerdillon",
+  "version": "1.0.0",
+  "description": "![Aperçu](integration/apercu.png \"Aperçu\")",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Cheesecake/s03-PARCOURS-OBlog-VincentBerdillon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Cheesecake/s03-PARCOURS-OBlog-VincentBerdillon/issues"
+  },
+  "homepage": "https://github.com/O-clock-Cheesecake/s03-PARCOURS-OBlog-VincentBerdillon#readme",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}

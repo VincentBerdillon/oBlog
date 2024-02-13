@@ -1,0 +1,24 @@
+<%- include("partials/header")%>
+
+    <main>
+        <form class="form" action="" method="get">
+            <label for="categories">Choisissez une catégorie </label>
+            <select name="categories" id="categories">
+                <option value="">--choisissez votre catégorie--</option>
+                <% for (category of myArray) {%>
+                    <option value="<%=category%>"><%=category%></option>
+                <%}%>
+            </select>
+            <button class="formBtn">Recherche</button>
+        </form>
+
+        <% for (results of data) {%> 
+            <ul>
+            <% if(categories===results.category){%>
+                <li class="articlesFound"><%=results.title%><a href="/article/<%=results.id%>"> lire ici</a></li>
+            <%}%>
+            </ul>        
+        <%}%>
+    </main>
+
+<%- include("partials/footer")%>
